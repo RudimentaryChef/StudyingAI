@@ -8,6 +8,7 @@ def randomization(n):
       A - a randomly-generated nx1 Numpy array.
     """
     #Your code here
+    return np.random.random([1,n])
     raise NotImplementedError
 
 def operations(h, w):
@@ -24,6 +25,10 @@ def operations(h, w):
       s - the sum of A and B.
     """
     #Your code here
+    A = np.random.random([h,w])
+    B = np.random.random([h,w])
+    return A + B
+
     raise NotImplementedError
 
 

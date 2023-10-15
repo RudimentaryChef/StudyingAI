@@ -2,7 +2,6 @@ import traceback
 import torch.nn as nn
 import torch
 import torchvision
-\
 def green(s):
     return '\033[1;32m%s\033[m' % s
 
